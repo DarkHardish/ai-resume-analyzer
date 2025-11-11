@@ -68,6 +68,7 @@ const Resume = () => {
                                     src={imageUrl}
                                     className="w-full h-full object-contain rounded-2xl"
                                     title = "resume"
+                                    alt = "resume"
                                 />
                             </a>
                         </div>
@@ -82,7 +83,7 @@ const Resume = () => {
                             <Details feedback = {feedback}/>
                         </div>
                     ): (
-                        <img src="/images/resume-scan-2.gif" className="w-full"/>
+                        <img src="/images/resume-scan-2.gif" className="w-full" alt="resume"/>
                     )}
                 </section>
             </div>
